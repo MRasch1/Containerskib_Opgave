@@ -15,8 +15,6 @@ namespace Containerskib_Opgave
 
         }
 
-        private double Knob { get; set; }
-
         public double KnobTilKmt(double knob)
         {
             input = knob;
