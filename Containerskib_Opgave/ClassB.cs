@@ -8,8 +8,7 @@ namespace Containerskib_Opgave
 {
     internal class ClassB
     {
-        public double input;
-
+        
         public ClassB()
         {
 
@@ -17,13 +16,11 @@ namespace Containerskib_Opgave
 
         public double KnobTilKmt(double knob)
         {
-            input = knob;
             return knob * 1.85;
         }
 
         public double KmtTilKnob(double km)
         {
-            input = km;
             return km / 1.85;
         }
     }
